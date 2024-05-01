@@ -1,3 +1,23 @@
 .home{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.home-container-text{
+    max-width: 506px;
+}
+.home-title{
+    font-family: 'CircularStd-Bold';
+    font-size: 3rem;
+}
+.home-text{
+    font-family: CircularStd-Medium;
+    opacity: 0.5;
+    padding: 0 10px 20px 0;
+}
+.home-container-buttons{
+    display: flex;
+    gap: 20px;
 }

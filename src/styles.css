@@ -34,3 +34,17 @@ body{
 .opacity-1{
     opacity: 1 !important;
 }
+.btn{
+    border-radius: 3px !important;
+    font-family: 'CircularStd-Medium' !important;
+    font-size: 0.9rem !important;
+    padding: 8px 30px !important;
+}
+.btn-primary {
+    background-color: #3871ff !important;
+}
+.btn-secondary{
+    background-color: transparent !important;
+    color: #9399a2 !important;
+    border-color: #9399a2 !important;
+}
