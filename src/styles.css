@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'CircularStd-Black';
+    src: url('../src/assets/fonts/circular-std-book/CircularStd-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CircularStd-Medium';
+    src: url('../src/assets/fonts/circular-std-book/CircularStd-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../src/assets/fonts/circular-std-book/CircularStd-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CircularStd-Bold';
+    src: url('../src/assets/fonts/circular-std-book/CircularStd-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(https://domofrontendchallenge.netlify.app/img/asset-background.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #273244 !important;
+}
+.opacity-1{
+    opacity: 1 !important;
+}

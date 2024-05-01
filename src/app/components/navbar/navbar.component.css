@@ -1,25 +1,43 @@
-
+.stateScroll{
+    background-color: #273244;
+    transition: all 0.5s ease;
+    box-shadow: rgba(17, 17, 26, 1.1) 0 0px 13px;
+    padding-top: 20px !important;
+}
+.navbar{
+    padding-top: 20px;
+    transition: all 0.5s ease;
+}
+@media (min-width: 768px) {
+    .navbar{
+        padding-top: 50px;
+    }
+}
+.navbar-brand{
+    font-size: 1rem;
+}
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link.show{
     color: #FFFFFF;
     font-weight: bold;
+    opacity: 1;
 }
 .nav-link{
     color:#FFFFFF;
-    font-family: "Poppins", sans-serif;
+    font-family: 'CircularStd-Book';
+    font-size: 1rem;
+    opacity: 0.5;
+    margin-left: 0;
 }
-.navbar{
-    background-color: #09488c;
+@media (min-width: 768px) {
+    .nav-link{
+        margin-left: 20px;
+    }
 }
-
 .navbar-brand.logo{
-    font-family: "Poppins", sans-serif;
+    font-family: 'CircularStd-Book';
     color: #FFFFFF;
-    font-weight: bolder;
     margin: 0;
-}
-.logo img{
-    max-width: 40px;
 }
 .navbar-toggler{
     border: none;
