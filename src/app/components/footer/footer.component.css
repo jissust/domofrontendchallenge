@@ -1,0 +1,38 @@
+.footer{
+    font-family: "CircularStd-Medium";
+    color: #9399a2;
+    padding: 70px 0 70px 0;
+}
+@media (min-width: 768px) {
+    .footer{
+        padding: 180px 0 70px 0;
+    }
+}
+.footer-logo{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+.footer-text{
+    max-width: 400px;
+    margin: 0 0 20px 0;
+}
+.footer-list ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.footer-title{
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+.footer-column-2 ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-column-2 ul li{
+    margin: 0 0 10px 0;
+}
