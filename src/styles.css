@@ -53,3 +53,8 @@ body{
     color: #9399a2 !important;
     border-color: #9399a2 !important;
 }
+.btn-tertiary{
+    background-color: transparent;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFFFF !important;
+}
