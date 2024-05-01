@@ -1,0 +1,37 @@
+.technology{
+    background-color: #3871ff;
+    padding: 30px 0 30px 0;
+}
+@media (min-width: 768px) {
+    .technology{
+        padding: 150px 0 70px 0;
+    }
+}
+.technology-skills{
+    max-width: 300px;
+}
+.technology-skills .col-6{
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+h1.technology-title{
+    color: #FFFFFF;
+    font-family: 'CircularStd-Medium';
+    margin: 15px 0 20px 0;
+}
+.technology-text{
+    color: #9bb8ff;
+    font-family: 'CircularStd-Medium';
+    font-size: 1.2rem;
+}
+.technology-col-2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0;
+}
+@media (min-width: 768px) {
+    .technology-col-2{
+        justify-content: end;
+        padding: 0;
+    }
+}
