@@ -36,3 +36,7 @@
 .footer-column-2 ul li{
     margin: 0 0 10px 0;
 }
+.footer-column-2 ul li a{
+    color: #9399a2;
+    text-decoration: none;
+}
