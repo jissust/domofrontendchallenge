@@ -2,11 +2,11 @@
     background-color: #FFFFFF;
     height: initial;
     text-align: center;
-    padding: 70px 0;
+    padding: 0 0 70px 0;
 }
 @media (min-width: 768px) {
     .case-studies{
-        height: 70vh;    
+        height: 75vh;    
     }
 }
 h5.case-studies-title{
@@ -20,12 +20,18 @@ h5.case-studies-title{
     width: 100%;
 }
 .swiper-slide-item{
-    width: 250px;
-    height: 250px;
+    width: initial;
+    height: initial;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
+}
+@media (min-width: 768px) {
+    .swiper-slide-item {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 /** case-studies-card */
