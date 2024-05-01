@@ -25,7 +25,7 @@
 }
 
 body{
-    background-image: url(https://domofrontendchallenge.netlify.app/img/asset-background.jpg);
+    background-image: url('../src/assets/images/asset-background.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top right;
