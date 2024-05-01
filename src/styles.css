@@ -26,10 +26,15 @@
 
 body{
     background-image: url(https://domofrontendchallenge.netlify.app/img/asset-background.jpg);
-    background-size: 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #273244 !important;
+}
+@media (min-width: 768px) {
+    body{
+        background-size: 50%;
+    }
 }
 .opacity-1{
     opacity: 1 !important;
